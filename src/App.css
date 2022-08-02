@@ -1,0 +1,46 @@
+body{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+h1{
+  margin: 0;
+  margin-bottom: 1.5rem;
+  font-size: 40px;
+}
+
+.label{
+  margin: .5rem;
+  font-size: 30px;
+}
+
+
+.label-hours{
+  margin-left: 0px;
+  font-size: 30px;
+}
+
+.label-minutes{
+  margin-left: 25px;
+  font-size: 30px;
+}
+
+.label-seconds{
+  margin-left: 27px;
+  font-size: 30px;
+}
+
+.btn{
+  margin: 2rem;
+  width: 30%;
+  height: 30px;
+}
+
+.red{
+  color: red;
+  font-weight: bold;
+}
