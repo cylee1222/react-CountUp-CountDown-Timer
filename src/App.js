@@ -25,17 +25,15 @@ function App() {
     setHours(0)
     setMinutes(0)
     setSeconds(0)
+    setCountUp()
   }
 
   function handleClickStartStop(){
     const sliders = document.querySelectorAll('input')
     if(sliders[0].value === '0' && sliders[1].value === '0' && sliders[2].value === '0'){
       setCountUp(true)
-    }else{
+    }else if(!countUp){
       setCountUp(false)
-    }
-    if(countUp){
-      document.getElementById('start-stop').disabled = true
     }
     setIsStarted(!isStarted)
   }
